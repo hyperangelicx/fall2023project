@@ -41,6 +41,21 @@ font-family:'Noto Serif Old Uyghur', serif;</style>
       }
       </style>
       </head>
+<style>
+      <title>jQuery UI Button - Default functionality</title>
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+      <link rel="stylesheet" href="/resources/demos/style.css">
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+      <script>
+      $( function() {
+        $( ".widget input[type=submit], .widget a, .widget button" ).button();
+        $( "button, input, a" ).on( "click", function( event ) {
+          event.preventDefault();
+        } );
+      } );
+      </script>
+    </head>
       <body>
       <h1> The Archangels</h1>
       
@@ -78,14 +93,6 @@ font-family:'Noto Serif Old Uyghur', serif;</style>
   </script>
 </head>
 <body>
-<ul id="sortable">
-  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Archangels</li>
-  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Cherubim</li>
-  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Seraphim</li>
-  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Principalities</li>
-  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Thrones</li>
-  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Powers</li>
-  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Angels</li>
-</ul>
+
  </body>
     </html>
