@@ -38,7 +38,7 @@ p{font-family:'Times New Roman', serif;
     background-color: rgba(165, 112, 42, 0.66);}
 .flex-container > div {flex-grow:1;
   background-color: rgb(135, 105, 68);
-  width: 30px;
+  width: 15px;
   margin:10px;
   text-align:left;
   line-height:5px;
