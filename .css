@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>saintswiki</title>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Serif+Old+Uyghur&display=swap" rel="stylesheet">all saints wiki</title>
+<style> 
+body {
+  background-color:rgb(249, 242, 232);
+}
+h1 {
+  color:rgb(94, 72, 5);
+  text-align: left;
+}
+h2 {
+  font-family:'Times New Roman';
+  color:rgb(94, 72, 5);text-align: left;
+}
+h3 {
+  font-family: 'Times New Roman';
+  color:rgb(94, 72, 5);text-align:left;
+
+}
+h4{
+  font-family: 'Times New Roman';
+  color: rgb(251, 250, 248);text-align:left;
+}
+p{font-family:'Times New Roman', serif;
+  color: rgb(208, 186, 170);}
+
+  <h3>Latest news</h3> 
+  <h4>Get to Know The Archangels</h4>
+  .flex-container {display: flex;flex-direction: row;
+    background-color: rgba(165, 112, 42, 0.66);}
+.flex-container > div {flex-grow:1;
+  background-color: rgb(135, 105, 68);
+  width: 30px;
+  margin:10px;
+  text-align:left;
+  line-height:10px;
+  font-size:30px;}
+* {box-sizing:border;}
+.flex-container {display: flex;}
+ </style>
+  </head>
+  </body>
+
+<h1>Orthodox Saints Wiki</h1>
+<img src="">
+<h4> About  Contact Blog Login  Search </h4>
+<div class="flex-container" style="flex-direction: row;">
+<div>About</div> 
+<div>Contact</div>
+<div>Blog</div>
+</div>
+
+
+<p>
+    <h3>November 28th, 2023</h3>
+    <h4>Saint Phillip</h4>
+    <h4>Nativity Fast: Oil is allowed</h4>
+
+<div class="flex-container">
+    
+<h3>archangels</h3>
+<div><h4>michael</h4></div>
+<div><h4>raphael</h4></div>
+<div><h4>uriel</h4></div>
+<div><h4>gabriel</h4></div>
+<div><h4>selaphiel</h4></div>
+<div><h4>Jeramheel</h4></div>
+<div><h4>Jehudiel</h4></div>
+<div><h4>Barachiel</h4></div>
+    </div>
+  
+</html>
