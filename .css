@@ -30,14 +30,14 @@ h4{
   color: rgb(113, 81, 17);text-align:left;
 }
 p{font-family:'Times New Roman', serif;
-  color: rgb(208, 186, 170);}
+  color: rgb(143, 79, 33);}
 
   <h3>Latest news</h3> 
   <h4>Get to Know The Archangels</h4>
   .flex-container {display: flex;flex-direction: row;
     background-color: rgba(165, 112, 42, 0.66);}
 .flex-container > div {flex-grow:1;
-  background-color: rgb(135, 105, 68);
+  background-color: rgb(191, 178, 163);
   width: 15px;
   margin:20px;
   text-align:left;
