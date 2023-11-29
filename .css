@@ -39,7 +39,7 @@ p{font-family:'Times New Roman', serif;
 .flex-container > div {flex-grow:1;
   background-color: rgb(135, 105, 68);
   width: 15px;
-  margin:10px;
+  margin:20px;
   text-align:left;
   line-height:5px;
   font-size:20px;}
