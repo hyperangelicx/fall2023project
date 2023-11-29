@@ -42,7 +42,7 @@ p{font-family:'Times New Roman', serif;
   margin:10px;
   text-align:left;
   line-height:10px;
-  font-size:30px;}
+  font-size:20px;}
 * {box-sizing:border;}
 .flex-container {display: flex;}
  </style>
@@ -66,7 +66,7 @@ p{font-family:'Times New Roman', serif;
 
 <div class="flex-container">
     
-<h3>archangels</h3>
+<h5>archangels</h5>
 <div><h4>michael</h4></div>
 <div><h4>raphael</h4></div>
 <div><h4>uriel</h4></div>
