@@ -41,7 +41,7 @@ p{font-family:'Times New Roman', serif;
   width: 30px;
   margin:10px;
   text-align:left;
-  line-height:10px;
+  line-height:5px;
   font-size:20px;}
 * {box-sizing:border;}
 .flex-container {display: flex;}
