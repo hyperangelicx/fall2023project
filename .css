@@ -45,6 +45,12 @@ p{font-family:'Times New Roman', serif;
   font-size:20px;}
 * {box-sizing:border;}
 .flex-container {display: flex;}
+
+.flex-container > div {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: aquamarine;
+}
  </style>
   </head>
   </body>
