@@ -3,12 +3,11 @@
 <head>
 <meta charset="utf-8">
 <title>saintswiki</title>
-
-
+<style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Serif+Old+Uyghur&display=swap" rel="stylesheet">all saints wiki</title>
-<style> 
+
 body {
   background-color:#FFF3ED;
 }
@@ -30,9 +29,6 @@ h4 {
 }
 p {font-family:'Times New Roman', serif;
   color: rgb(143, 79, 33);}
-
-  <h3>Latest news</h3> 
-  <h4>Get to Know The Archangels</h4>
 
  .flex-container > div {
   flex-grow:1;
@@ -92,6 +88,8 @@ $( function() {
 <h3>Saint Phillip</h4>
 <h4>Nativity Fast: Oil is allowed</h4>
 
+<h3>Latest news</h3> 
+<h4>Get to Know The Archangels</h4>
 <div class="flex-container">
     
 <h5>archangels</h5>
