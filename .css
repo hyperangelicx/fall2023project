@@ -55,11 +55,11 @@ p{font-family:'Times New Roman', serif;
 }
 .flex-container > div {
     background-color: #FFF3ED;
-    width: 100px;
+    width: 10px;
     margin:10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    line-height: 20px;
+    font-size: 15px;
 }
  </style>
   </head>
