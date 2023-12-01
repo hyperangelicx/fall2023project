@@ -63,6 +63,18 @@ $( function() {
   } );
 } );
 </script>
+
+<div class="widget">
+<h1>Widget Buttons</h1>
+<button>A button element</button>
+<input type="submit" value="A submit button">
+<a href="#">An anchor</a>
+</div>
+<h1>CSS Buttons</h1>
+<button class="ui-button ui-widget ui-corner-all">A button element</button>
+<input class="ui-button ui-widget ui-corner-all" type="submit" value="A submit button">
+<a class="ui-button ui-widget ui-corner-all" href="#">An anchor</a>
+</body>
  </style>
 
 <h1>Orthodox Saints Wiki</h1>
@@ -75,24 +87,10 @@ $( function() {
 <div>Blog</div>
 </div>
 
-
-<body>
-<div class="widget">
-<h1>Widget Buttons</h1>
-<button>A button element</button>
-<input type="submit" value="A submit button">
-<a href="#">An anchor</a>
-</div>
-<h1>CSS Buttons</h1>
-<button class="ui-button ui-widget ui-corner-all">A button element</button>
-<input class="ui-button ui-widget ui-corner-all" type="submit" value="A submit button">
-<a class="ui-button ui-widget ui-corner-all" href="#">An anchor</a>
-</body>
-
 <p>
-    <h3>November 28th, 2023</h3>
-    <h4>Saint Phillip</h4>
-    <h4>Nativity Fast: Oil is allowed</h4>
+<h3>November 28th, 2023</h3>
+<h3>Saint Phillip</h4>
+<h4>Nativity Fast: Oil is allowed</h4>
 
 <div class="flex-container">
     
