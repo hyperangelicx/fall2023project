@@ -34,42 +34,24 @@ p{font-family:'Times New Roman', serif;
 
   <h3>Latest news</h3> 
   <h4>Get to Know The Archangels</h4>
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(165, 112, 42, 0.66);}
-.flex-container > div {flex-grow:1;
+
+ .flex-container > div {
+  flex-grow:1;
   background-color: rgb(95, 59, 19);
   width: 15px;
   margin:10px;
   text-align:left;
   line-height:10px;
   font-size:15px;}
-* {box-sizing:border;}
-.flex-container {display: flex;}
 
 .flex-container > div {
-    background-color: #763b1e;
-    width: 10px;
-    margin:10px;
-    text-align: center;
-    line-height: 20px;
-    font-size: 15px;
+  background-color: #763b1e;
+  width: 10px;
+  margin:10px;
+  text-align: center;
+  line-height: 10px;
+  font-size: 15px;
 }
- </style>
-  </head>
-  </body>
-
-<h1>Orthodox Saints Wiki</h1>
-<img src="michael.jpg">
-<h4> About  Contact Blog Login  Search </h4>
-
-
-<div>About</div> 
-<div>Contact</div>
-<div>Blog</div>
-</div>
-
 <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
 <link rel="stylesheet" href="/resources/demos/style.css">
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
@@ -82,7 +64,19 @@ $( function() {
   } );
 } );
 </script>
-</head>
+ </style>
+
+<h1>Orthodox Saints Wiki</h1>
+<img src="michael.jpg">
+<h4> About  Contact Blog Login  Search </h4>
+
+
+<div>About</div> 
+<div>Contact</div>
+<div>Blog</div>
+</div>
+
+
 <body>
 <div class="widget">
 <h1>Widget Buttons</h1>
