@@ -41,20 +41,15 @@ p{font-family:'Times New Roman', serif;
 .flex-container > div {flex-grow:1;
   background-color: rgb(95, 59, 19);
   width: 15px;
-  margin:20px;
+  margin:10px;
   text-align:left;
-  line-height:5px;
-  font-size:20px;}
+  line-height:10px;
+  font-size:15px;}
 * {box-sizing:border;}
 .flex-container {display: flex;}
 
 .flex-container > div {
-    display: flex;
-    flex-wrap: nowrap;
-    background-color: aquamarine;
-}
-.flex-container > div {
-    background-color: #FFF3ED;
+    background-color: #763b1e;
     width: 10px;
     margin:10px;
     text-align: center;
