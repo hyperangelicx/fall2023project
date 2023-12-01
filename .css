@@ -52,7 +52,15 @@ p{font-family:'Times New Roman', serif;
 <h1>Orthodox Saints Wiki</h1>
 <img src="michael.jpg">
 <h4> About  Contact Blog Login  Search </h4>
-<div class="flex-container" style="flex-direction: row;">
+
+.flex-container > div {
+    background-color: #FFF3ED;
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
 <div>About</div> 
 <div>Contact</div>
 <div>Blog</div>
