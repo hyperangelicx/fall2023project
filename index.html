@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <title>saintswiki</title>
 
-
+<style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Serif+Old+Uyghur&display=swap" rel="stylesheet">all saints wiki</title>
-<style> 
+
 body {
-  background-color:rgb(249, 242, 232);
+  background-color:#FFF3ED;
 }
 h1 {
   color:rgb(94, 72, 5);
@@ -23,51 +23,75 @@ h2 {
 h3 {
   font-family: 'Times New Roman';
   color:rgb(94, 72, 5);text-align:left;
-
 }
-h4{
+h4 {
   font-family: 'Times New Roman';
-  color: rgb(251, 250, 248);text-align:left;
+  color: rgb(113, 81, 17);text-align:left;
 }
-p{font-family:'Times New Roman', serif;
-  color: rgb(208, 186, 170);}
+p {font-family:'Times New Roman', serif;
+  color: rgb(143, 79, 33);}
 
-  <h3>Latest news</h3> 
-  <h4>Get to Know The Archangels</h4>
-  .flex-container {display: flex;flex-direction: row;
-    background-color: rgba(165, 112, 42, 0.66);}
-.flex-container > div {flex-grow:1;
-  background-color: rgb(135, 105, 68);
-  width: 30px;
+ .flex-container > div {
+  flex-grow:1;
+  background-color: rgb(95, 59, 19);
+  width: 15px;
   margin:10px;
   text-align:left;
   line-height:10px;
-  font-size:30px;}
-* {box-sizing:border;}
-.flex-container {display: flex;}
+  font-size:15px;}
+
+.flex-container > div {
+  background-color: #763b1e;
+  width: 10px;
+  margin:10px;
+  text-align: center;
+  line-height: 10px;
+  font-size: 15px;
+}
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script>
+$( function() {
+  $( ".widget input[type=submit], .widget a, .widget button" ).button();
+  $( "button, input, a" ).on( "click", function( event ) {
+    event.preventDefault;})
+</script>
+
+<div class="widget">
+<h1>Widget Buttons</h1>
+<button>A button element</button>
+<input type="submit" value="A submit button">
+<a href="#">An anchor</a>
+</div>
+<h1>CSS Buttons</h1>
+<button class="ui-button ui-widget ui-corner-all">A button element</button>
+<input class="ui-button ui-widget ui-corner-all" type="submit" value="A submit button">
+<a class="ui-button ui-widget ui-corner-all" href="#">An anchor</a>
+</body>
  </style>
-  </head>
-  </body>
 
 <h1>Orthodox Saints Wiki</h1>
-<img src="">
+<img src="michael.jpg">
 <h4> About  Contact Blog Login  Search </h4>
-<div class="flex-container" style="flex-direction: row;">
+
+
 <div>About</div> 
 <div>Contact</div>
 <div>Blog</div>
 </div>
 
-
 <p>
-    <h3>November 28th, 2023</h3>
-    <h4>Saint Phillip</h4>
-    <h4>Nativity Fast: Oil is allowed</h4>
+<h3>November 28th, 2023</h3>
+<h3>Saint Phillip</h4>
+<h4>Nativity Fast: Oil is allowed</h4>
 
-    <div class="flex-container">
-    <div><h3>thrones</h3></div>
-<div>seraphim</div>
-<div class="flex-container" style="flex-direction:column;background-color: rgb(201, 156, 52);"><h3>archangels</h3>
+<h3>Latest news</h3> 
+<h4>Get to Know The Archangels</h4>
+<div class="flex-container">
+    
+<h5>archangels</h5>
 <div><h4>michael</h4></div>
 <div><h4>raphael</h4></div>
 <div><h4>uriel</h4></div>
@@ -77,5 +101,5 @@ p{font-family:'Times New Roman', serif;
 <div><h4>Jehudiel</h4></div>
 <div><h4>Barachiel</h4></div>
     </div>
-  
+
 </html>
