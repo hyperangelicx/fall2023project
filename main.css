@@ -3,12 +3,19 @@
 <head>
 <meta charset="utf-8">
 <title>saintswiki</title>
+<link type="text/css" rel="stylesheet" href="main.css">
 <style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Serif+Old+Uyghur&display=swap" rel="stylesheet">all saints wiki</title>
+</head>
 
-body {
+<body> 
+<div class="container">
+<li><a href="index.html">Home</a></l>
+<div class=".flex-container">
+<div><p> archangel</p></div>
+{
   background-color:#FFF3ED;
 }
 h1 {
